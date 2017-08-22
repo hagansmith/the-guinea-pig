@@ -1,0 +1,31 @@
+body {
+	background-color: turquoise;
+}
+
+.blue {
+	color: blue;
+}
+
+.hulk {
+	font-size: 100px;
+}
+
+.capture {
+	border: 2px solid aliceblue;
+}
+
+.round {
+	border-radius: 25%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.ital {
+	font-style: italic;
+}
+
+.block {
+	display: block;
+}

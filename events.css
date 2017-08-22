@@ -18,11 +18,12 @@ body {
 	border-radius: 25%;
 }
 
-.bold {
+.article-section:first-of-type {
 	font-weight: bold;
 }
 
-.ital {
+.article-section:last-of-type {
+	font-weight: bold;
 	font-style: italic;
 }
 

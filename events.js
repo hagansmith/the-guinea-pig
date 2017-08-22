@@ -4,7 +4,7 @@ var output = document.getElementById('output-target');
 // 1. When any section is clicked the output target text should be "You clicked on the {text of the section} section"
 // 
 document.body.addEventListener('click', function(event){
-	 if (event.target.className === 'article-section' || event.target.className === 'article-section bold' || event.target.className === 'article-section bold ital'){
+	 if (event.target.className === 'article-section'){
 		output.innerHTML = `<p>You clicked on the ${event.target.textContent} section</p>`;
 	}	
 });
@@ -55,11 +55,8 @@ round.addEventListener('click', function(e){
 		gP.classList.toggle('round');}
 })
 // 9. The first section's text should be bold.
-var something = document.getElementById('page-header').nextElementSibling.nextElementSibling;
-something.firstElementChild.classList.add('bold');
 
-// 10. The last section's text should be bold and italicized.
-something.lastElementChild.classList.add('bold', 'ital');
+// // 10. The last section's text should be bold and italicized.
 
 // 11. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
 btnClass();
